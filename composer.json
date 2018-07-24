@@ -1,6 +1,6 @@
 {
-    "name": "laravel/lumen",
-    "description": "The Laravel Lumen Framework.",
+    "name": "ams",
+    "description": "Athlete Management System",
     "keywords": ["framework", "laravel", "lumen"],
     "license": "MIT",
     "type": "project",
