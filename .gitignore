@@ -4,3 +4,4 @@ Homestead.json
 Homestead.yaml
 .env
 php-artisan.txt
+composer.lock.json
