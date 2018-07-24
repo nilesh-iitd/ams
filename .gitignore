@@ -5,3 +5,5 @@ Homestead.yaml
 .env
 php-artisan.txt
 composer.lock.json
+package-lock.json
+/node_modules

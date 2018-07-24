@@ -8,6 +8,7 @@ Athlete Management System
     e.g. JWT_SECRET=abcde2fg5hij7k8l9m0nopqrstu
     ````
 * Setup database parameters
+* Execute ``./setup.sh`` script to setup composer requirements and database migration with seed data.
 
 # Database migration
 
