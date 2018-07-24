@@ -2,18 +2,30 @@
 Athlete Management System
 
 # Setup environment context
-* Add JWT_SECRET key with random String value to .env file 
-    * `e.g. JWT_SECRET=abcde2fg5hij7k8l9m0nopqrstu`
-
+* Add JWT_SECRET key with random String value to `.env` file 
+    
+    ````
+    e.g. JWT_SECRET=abcde2fg5hij7k8l9m0nopqrstu
+    ````
 * Setup database parameters
 
 # Database migration
 
 * Goto source directory
-* Execute migration: `php artisan migrate`
+* Execute migration:
+    ````
+    php artisan migrate
+    ````
 
 # Database seeding
-* Seed the data using: `php artisan db:seed`
+````
+php artisan db:seed
+````
+
+# Start API server
+````
+php -S localhost:8000 -t public
+````
 
 # API Endpoints for Authentication and Registration
 ````
